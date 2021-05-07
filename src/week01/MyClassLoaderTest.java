@@ -13,8 +13,7 @@ public class MyClassLoaderTest {
         Object obj = c1.newInstance();
         Method method = obj.getClass().getMethod("hello");
         String str = (String) method.invoke(obj);
-        /*System.out.println(method);
-        System.out.println(obj.getClass().getClassLoader());*/
+
     }
 }
 
