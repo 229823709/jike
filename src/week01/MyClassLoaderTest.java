@@ -14,6 +14,7 @@ public class MyClassLoaderTest {
         Method method = obj.getClass().getMethod("hello");
         String str = (String) method.invoke(obj);
 
+
     }
 }
 
