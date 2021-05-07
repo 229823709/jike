@@ -1,9 +1,11 @@
+package week01;
+
 import java.lang.reflect.Method;
 
 public class MyClassLoaderTest {
     public static void main(String[] args) throws Exception {
         // 指定类加载器加载调用
-       // MyClassLoader classLoader = new MyClassLoader();
+       // week01.MyClassLoader classLoader = new week01.MyClassLoader();
         //System.out.println(classLoader.findClass("Hello"));
         //classLoader.loadClass("Hello").getMethod("hello").invoke(null);
 
