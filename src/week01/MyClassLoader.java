@@ -25,7 +25,6 @@ public class MyClassLoader extends ClassLoader {
             int bufferSize = 4096;
             byte[] buffer = new byte[bufferSize];
             int bytesNumRead = 0;
-
             while ((bytesNumRead = ins.read(buffer)) != -1) {
                 baos.write(buffer, 0, bytesNumRead);
             }

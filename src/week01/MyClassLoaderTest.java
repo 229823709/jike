@@ -8,7 +8,6 @@ public class MyClassLoaderTest {
        // week01.MyClassLoader classLoader = new week01.MyClassLoader();
         //System.out.println(classLoader.findClass("Hello"));
         //classLoader.loadClass("Hello").getMethod("hello").invoke(null);
-
         MyClassLoader mcl = new MyClassLoader();
         Class<?> c1 = Class.forName("Hello", true, mcl);
         Object obj = c1.newInstance();
